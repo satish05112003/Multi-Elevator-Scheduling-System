@@ -20,6 +20,11 @@ The project demonstrates:
 * Status display showing floor levels, targets, and directions
 * Step-by-step simulation to mimic real-time system behavior
 
+## Flow Diagram
+
+[Multi Elevator Scheduling System](multi-elevator_scheduling_system.png)
+
+
 ## How It Works
 
 1. **Initialization**
