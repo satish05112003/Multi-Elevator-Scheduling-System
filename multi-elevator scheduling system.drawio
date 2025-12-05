@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
+  <diagram name="Page-1" id="Mz-LYP5HFH5iRnp2bX9I">
+    <mxGraphModel dx="2605" dy="1520" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="900" background="light-dark(#FFFFFF,#1A1A1A)" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RALd1nPVq5zc3u77YRol-6" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;textShadow=0;" target="RALd1nPVq5zc3u77YRol-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;START PROGRAM&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="330" x="67.5" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-8" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" target="RALd1nPVq5zc3u77YRol-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;INPUT : No of Floors &amp;amp; Elevators&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="100" width="405" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-11" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.04;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;" target="RALd1nPVq5zc3u77YRol-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="710" />
+              <mxPoint x="480" y="410" />
+              <mxPoint x="537" y="410" />
+            </Array>
+            <mxPoint x="470" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;INITIALIZE ALL ELEVATORS&lt;/h1&gt;&lt;h1&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;- CurrentFloor = 0&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp;- TargetFloor = -1 (idle)&lt;/h1&gt;&lt;h1&gt;- Direction = 0 (idle)&amp;nbsp;&amp;nbsp;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="220" width="397.5" x="32.5" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;MAIN MENU LOOP&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="680" width="80" x="540" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="680" width="170" x="620" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-26" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" target="RALd1nPVq5zc3u77YRol-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;1) Show Status&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="85" width="235" x="767.5" y="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-15" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-12" style="endArrow=none;html=1;rounded=0;exitX=0.471;exitY=0.324;exitDx=0;exitDy=0;exitPerimeter=0;startSize=10;strokeWidth=2;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="720" y="380" as="sourcePoint" />
+            <mxPoint x="810" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-18" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-12" style="endArrow=none;html=1;rounded=0;exitX=0.495;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=10;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="380" as="sourcePoint" />
+            <mxPoint x="810" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-30" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" target="RALd1nPVq5zc3u77YRol-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;2) Add Hall Call&amp;nbsp;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="780" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-37" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="RALd1nPVq5zc3u77YRol-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;3) Step Elevators&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="790" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-38" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="RALd1nPVq5zc3u77YRol-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;4) Exit&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="780" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-31" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RALd1nPVq5zc3u77YRol-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;Print each elevator’s floor, target, and direction&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="80" width="340" x="1060" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;Return to menu&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="1490" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-33" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RALd1nPVq5zc3u77YRol-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;ASSIGN TARGET FLOOR TO THAT ELEVATOR&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;Set direction:&lt;br&gt;&amp;nbsp;current &amp;lt; target → UP&lt;br&gt;current &amp;gt; target → DOWN&amp;nbsp;&lt;br&gt;equal → IDLE&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="240" width="600" x="1050" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;Return to menu&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="1750" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-40" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RALd1nPVq5zc3u77YRol-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;FOR EACH ELEVATOR:&lt;/h1&gt;&lt;h1&gt;&lt;br&gt;If targetFloor == -1 → do nothing&amp;nbsp;&lt;br&gt;Else if current &amp;lt; target → move UP&lt;br&gt;Else if current &amp;gt; target → move DOWN&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;If current == target → stop, become idle&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="360" width="610" x="1080" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;Return to menu&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="1770" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;EXIT PROGRAM&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="250" width="152" x="2020" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="RALd1nPVq5zc3u77YRol-42" edge="1" parent="1" source="RALd1nPVq5zc3u77YRol-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.011;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;" target="RALd1nPVq5zc3u77YRol-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
